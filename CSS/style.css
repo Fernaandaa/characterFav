@@ -6,10 +6,8 @@
 
 body{
     font-family: 'Delius', cursive;
-    
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin: 0%;
+    max-width: 100%;
+    background-color: #dadada;
 }
 
 :root{
@@ -18,19 +16,24 @@ body{
     --gray-color: #D1D1D1;
 }
 
-img{
+.index{
     width: 100%;
     position: absolute;
-    top: -11.9rem;
+    top: -12rem;
 }
+
+/*.index:hover{
+    filter: blur(5px);
+}*/
 
 .box_with_text{
     background-color: var(--transparente-color);
+    backdrop-filter: blur(10px);
     width: 420px;
     height: 453px;
     border-radius: 36px;
     position: absolute;
-    top: 20%;
+    top: 8%;
     left: 67%;
 }
 
@@ -50,11 +53,140 @@ img{
 
 .button_box{
     position: absolute;
-    top: 100%;
-    left: 82%;
+    top: 89%;
+    left: 80%;
     background-color: var(--transparente-color);
     border-style: none;
     width: 70px;
     height: 70px;
     border-radius: 86px;
+    text-decoration: none;
+    backdrop-filter: blur(10px);
+}
+
+.button_box:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+.button_box{
+    overflow:hidden;
+}
+
+svg {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.button_box1{
+    text-decoration: none;
+    text-transform: none;
+    position: absolute;
+    top: 89%;
+    left: 2%;
+    background-color: var(--transparente-color);
+    border-style: none;
+    width: 150px;
+    height: 65px;
+    border-radius: 30px;
+    color: var(--white-color);
+    backdrop-filter: blur(10px);
+}
+
+.button_box1:hover {
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body .galery{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    padding-top: 10%;
+}
+
+.titulo {
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-shadow: 0px 2px 2px rgb(27, 27, 27);
+}
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+
+.titulo{
+    color: var(--gray-color);
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+         width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+         width: 70%;
+    }
+}
+
+.content_contents{
+    background-image: url(http://3.bp.blogspot.com/-pCaeUP_TP2c/T07JygImFKI/AAAAAAAA0cA/EuxNZA8ghTI/s1600/%255BCommie%255D+Hotarubi+no+Mori+e+%255BBD+1080p+AAC%255D+%255B52244604%255D.mkv_snapshot_03.02_%255B2012.02.29_15.20.03%255D.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+h1, h2, h3{
+    color: var(--white-color);
+}
+
+p{
+    color: #ffffff;
+}
+
+#container_content{
+    width: 50%;
+    text-align: justify;
+    font-weight: 100px;
+}
+
+.description_content{
+    backdrop-filter: blur(60px);
+    margin: 10%;
+    padding: 3% 5%;
+    text-align: center;
+}
+
+.title_content{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.image_content{
+    width: 100%;
 }
