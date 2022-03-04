@@ -15,6 +15,13 @@ body{
     --gray-color: #D1D1D1;
 }
 
+.body_index{
+    background-image: url(../img/WhatsApp\ Image\ 2022-03-04\ at\ 02.22.36.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+}
+
 .index{
     width: 100%;
     position: absolute;
@@ -52,7 +59,7 @@ body{
 
 .button_box{
     position: absolute;
-    top: 89%;
+    top: 85%;
     left: 80%;
     background-color: var(--transparente-color);
     border-style: none;
@@ -80,8 +87,8 @@ svg {
     text-decoration: none;
     text-transform: none;
     position: absolute;
-    top: 89%;
-    left: 2%;
+    top:85%;
+    left: 4%;
     background-color: var(--transparente-color);
     border-style: none;
     width: 150px;
@@ -165,7 +172,7 @@ h1, h2, h3{
 }
 
 p{
-    color: #ffffff;
+    color: var(--gray-color);
 }
 
 #container_content{
@@ -173,19 +180,192 @@ p{
     font-weight: 100px;
 }
 
-.description_content{
-    width: 40%;
-    backdrop-filter: blur(60px);
-    margin: 5% 4%;
-    padding: 3% 5%;
-    text-align: center;
-}
-
 .title_content{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.description_content{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    margin: 5% 3.7%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
 }
 
 .image_content{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_appearance{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.appearance_content{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    float: right;
+    margin: -19% 3.7%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_appearance{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_personality{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.personality_content{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    margin: 10% 8%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_personality{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_history{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.history_content{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    float: right;
+    margin: -13% 7%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_history_left{
+    float: right;
+    padding-top: 19%;
+}
+
+.image_history{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_plot{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.plot_content{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    margin: 35% 3.7%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_plot{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_plot{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.plot_content_one{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    float: right;
+    margin: -39% 8%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_plot{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_plot{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+.plot_content_two{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    margin: -10% 7%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_plot{
+    width: 100%;
+    padding-top: 9%;
+}
+
+.subtitle_plot{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.plot_content_three{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    float: right;
+    margin: 5% 6%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_plot{
+    width: 100%;
+    padding-top: 9%;
+}
+
+
+.subtitle_skills{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.skills_content{
+    width: 40%;
+    backdrop-filter: blur(60px);
+    margin: 48% 0 5% 3%;
+    padding: 3% 5%;
+    border: 1px solid rgba(36, 36, 36, 0.056);
+    border-radius: 1rem;
+}
+
+.image_skills{
     width: 100%;
 }
