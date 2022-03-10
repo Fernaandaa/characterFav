@@ -369,3 +369,13 @@ p{
 .image_skills{
     width: 100%;
 }
+
+.button_top{
+    position: absolute;
+    right: 2%;
+    width: 3%;
+    height: 6%;
+    background-color: var(--transparente-color);
+    border-radius: 50%;
+    color: #D1D1D1;
+}
